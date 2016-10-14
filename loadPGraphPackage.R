@@ -28,5 +28,5 @@ if(any( grepl("pgraph", (.packages())) )) {
   detach("package:pgraph", unload=TRUE)
 }
 
-library(pgraph, lib.loc=".")  ## load our personal pgraph library
+library(pgraph, lib.loc="../install")  ## load our personal pgraph library
 library(utils)
